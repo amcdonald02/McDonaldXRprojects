@@ -1,0 +1,1126 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 65464 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+S:/McDonaldXRprojects/XRI_project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59231
+Successfully changed project path to: S:/McDonaldXRprojects/XRI_project
+S:/McDonaldXRprojects/XRI_project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5472] Host "[IP] 10.103.20.182 [Port] 0 [Flags] 2 [Guid] 604457903 [EditorId] 604457903 [Version] 1048832 [Id] WindowsEditor(7,XRLAB17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5472] Host "[IP] 10.103.20.182 [Port] 0 [Flags] 2 [Guid] 604457903 [EditorId] 604457903 [Version] 1048832 [Id] WindowsEditor(7,XRLAB17) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/McDonaldXRprojects/XRI_project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.4629
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.027371 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 322 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.733 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (471ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (57.6 KB). Loaded Objects now: 4706.
+Memory consumption went from 153.0 MB to 153.0 MB.
+Total: 5.850800 ms (FindLiveObjects: 0.501700 ms CreateObjectMapping: 0.377700 ms MarkObjects: 4.816400 ms  DeleteObjects: 0.153900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GazeInputManager.cs:  -> 155625cd07bc4e1e834f6e8f7d58bb43
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs:  -> 621a47fc1058589b07b340fb03547357
+  custom:scripting/monoscript/fileName/StarterAssetsSampleProjectValidation.cs:  -> 41923d4e3ad340b10762e754770f8031
+  custom:scripting/monoscript/fileName/DestroySelf.cs:  -> 4403ad9e1588a465a19ece24fa8e9b79
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor:  -> ac93a809c4c32485b88edb1b417cdac1
+  custom:scripting/monoscript/fileName/IncrementUIText.cs:  -> f7d8385b142d66834e0ec965e04f971f
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs:  -> 04af9b76e0982b7f3b3da9f4639042cf
+  custom:scripting/monoscript/fileName/ObjectSpawner.cs:  -> 9dd8da7c17a93d30bb31c5c6f3c19a83
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Samples.StarterAssets:  -> 852285fea968f36a5e6c6a8c9f60b427
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs:  -> 64ab64daf2a926326dc8263ed59a5ef2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.481 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.5 KB). Loaded Objects now: 4710.
+Memory consumption went from 152.4 MB to 152.4 MB.
+Total: 3.087900 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.249300 ms MarkObjects: 2.499800 ms  DeleteObjects: 0.046200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10310.558747 seconds.
+  path: Assets/Scenes/Challenge1.unity
+  artifactKey: Guid(c86d7022cccd17b4dbc92e69bc735845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Challenge1.unity using Guid(c86d7022cccd17b4dbc92e69bc735845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e711f0a45627e6dbdf0c36feaa09e20f') in 0.075879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_10.mat
+  artifactKey: Guid(bf4489aaaa5411845ab21ac60fa54501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_10.mat using Guid(bf4489aaaa5411845ab21ac60fa54501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46746e2fce35bc014185a1319f8037b5') in 0.090922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png
+  artifactKey: Guid(ce94df8f47d0e464f87d9b6a36e942d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1902.png using Guid(ce94df8f47d0e464f87d9b6a36e942d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e252db6adef756c9ececa4358ff31bcc') in 0.074471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png
+  artifactKey: Guid(5c392769bdac89e40895bf8b46759735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1826.png using Guid(5c392769bdac89e40895bf8b46759735) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eb1e263fa019eb0d2960af364edb604') in 0.034741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat
+  artifactKey: Guid(26b8dd4f94a96fa4fb84b5f77e6dec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_4.mat using Guid(26b8dd4f94a96fa4fb84b5f77e6dec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f99cb4c4062d05e20eef4a9c2bfcaa6a') in 0.025049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat
+  artifactKey: Guid(5e83eac897ce17d4ab2ac374c8d6f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_6.mat using Guid(5e83eac897ce17d4ab2ac374c8d6f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f874e5c51f9cfb56a03f14078df98eb') in 0.029366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_7.mat
+  artifactKey: Guid(930acf7ef6b366f4382b5d9078987ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_7.mat using Guid(930acf7ef6b366f4382b5d9078987ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7ed2437fbfaf85f1ece3b80bf68eea9') in 0.026815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat
+  artifactKey: Guid(42ad0e05a3f5f0144bb44704b59b0c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_4.mat using Guid(42ad0e05a3f5f0144bb44704b59b0c3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcbdc0789cfe686b432d09ef9b9599bc') in 0.029815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png
+  artifactKey: Guid(9d981829f572e654682aeb65935870bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1800.png using Guid(9d981829f572e654682aeb65935870bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5c8a0e07a73ca55737f53513bb0cfa6') in 0.039403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png
+  artifactKey: Guid(d3fa1deb2807ca94bbe6d88446aa919e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1822.png using Guid(d3fa1deb2807ca94bbe6d88446aa919e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eae8785de4d55a62f280da6249e6b6e1') in 0.037235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png
+  artifactKey: Guid(36c9b2f41c518774b92a5eaa59590b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g3194.png using Guid(36c9b2f41c518774b92a5eaa59590b10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dee59169f575714036a39c9051dfe152') in 0.036486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat
+  artifactKey: Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_9.mat using Guid(9f80c72a7bf0eff4aab3ccbd3d1ab38d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c105b99e152a5145e71d675a7f7bac1') in 0.024225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat
+  artifactKey: Guid(cbf017f6bad132c499e0709e3345d080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_7.mat using Guid(cbf017f6bad132c499e0709e3345d080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '891f2279a6acbb828e4c38773e614bf1') in 0.025301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png
+  artifactKey: Guid(216fe8c26226ce645b01dca93ffac969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/prototype.png using Guid(216fe8c26226ce645b01dca93ffac969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fd293518c9816d9a72f27e9243dbe2a') in 0.023581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png
+  artifactKey: Guid(e37a3aef447d89d4c8665da687045bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2683.png using Guid(e37a3aef447d89d4c8665da687045bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0a074c2e6d55cb91d87fac826932483') in 0.032020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png
+  artifactKey: Guid(134ab5849cdfde44c8b55c0a053436f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3277.png using Guid(134ab5849cdfde44c8b55c0a053436f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfb471138536f73a0d74a62e6916c31b') in 0.027359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png
+  artifactKey: Guid(8d745468a5c22b042979441fe02d3d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3347.png using Guid(8d745468a5c22b042979441fe02d3d43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5aec37c1b3aecb6a3d0e8abbc0ff43c') in 0.031955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat
+  artifactKey: Guid(1bef6174832ce994987824718f0207c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_1.mat using Guid(1bef6174832ce994987824718f0207c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c4c07263241cac09213c8355470fd1b') in 0.023806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png
+  artifactKey: Guid(9d27172b2c787a84089c76be78607c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1462.png using Guid(9d27172b2c787a84089c76be78607c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d13e5696abb38dbfdaa9b9bd56a5828') in 0.032009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png
+  artifactKey: Guid(d5e0e313c1dc268499f87c536fdcbfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g25411.png using Guid(d5e0e313c1dc268499f87c536fdcbfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb281a932a0eeb8303811fbb727992de') in 0.029455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_3.mat
+  artifactKey: Guid(99b708e835983d2499c503bb9adb8462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_3.mat using Guid(99b708e835983d2499c503bb9adb8462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5fddc0fd1200609fa77a18220ded5abc') in 0.019657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d74f8d790e39d7cbf39be531b5d9631') in 0.009122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png
+  artifactKey: Guid(0c2e88c8428c5eb4686d86f45aa3c3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2580.png using Guid(0c2e88c8428c5eb4686d86f45aa3c3dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4c1456fecf933a4b3f6e3196ecaabb3') in 0.030984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png
+  artifactKey: Guid(dd86e81bea20f8242b1f517f39ba825f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1153.png using Guid(dd86e81bea20f8242b1f517f39ba825f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbbd3480f6506bf52b17a5ed2b8ea28f') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_8.mat
+  artifactKey: Guid(6c372b6b919bc2240b465dc11fc79988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_8.mat using Guid(6c372b6b919bc2240b465dc11fc79988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00a0baff61843f4b2a560a3bd65ff2a6') in 0.025024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_8.mat
+  artifactKey: Guid(66319b75c9d86c24db3297850e4d0743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_8.mat using Guid(66319b75c9d86c24db3297850e4d0743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c6413a644e48b12722bf0c78675349e') in 0.020452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png
+  artifactKey: Guid(894885d97999f094e808433c90bce269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2716.png using Guid(894885d97999f094e808433c90bce269) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '771a85514ed3b232eeed713a3528eac0') in 0.031914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png
+  artifactKey: Guid(ff99739f99819fc4687b31348f8b141d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2560.png using Guid(ff99739f99819fc4687b31348f8b141d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '901921660d3948cc107dc0e240ced7a3') in 0.025390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png
+  artifactKey: Guid(efc07207fb27b9a40a2eaf4021762544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1874.png using Guid(efc07207fb27b9a40a2eaf4021762544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd88357850ad45beb310d27b4d0e6555') in 0.032428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png
+  artifactKey: Guid(b2aea9051d31c4349a723f45db020e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Blue/g1861.png using Guid(b2aea9051d31c4349a723f45db020e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4cc9d2355cf017c2cc499b69c252f26') in 0.026280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png
+  artifactKey: Guid(80a81a22b66688a439fe8c909b67f1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2501.png using Guid(80a81a22b66688a439fe8c909b67f1b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9ec4d09590d4e22c2e66b5300974159') in 0.030325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png
+  artifactKey: Guid(6b9af8d15e66dd5488c1bb5c18258ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Pink/g2514.png using Guid(6b9af8d15e66dd5488c1bb5c18258ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01c7d9ce2113d433d2a18cf9728cebcf') in 0.028683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat
+  artifactKey: Guid(0206025cb345d16488ac1f9e2b587dea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_9.mat using Guid(0206025cb345d16488ac1f9e2b587dea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f37a8dcc5ba26c9a674ef6a2c94e081') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat
+  artifactKey: Guid(66540bd7b72fbfb43a532a03ffb6130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_5.mat using Guid(66540bd7b72fbfb43a532a03ffb6130b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '432658d737c0b3a48f761108850396e2') in 0.024170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_2.mat
+  artifactKey: Guid(93705c8208ed1304b89384dc85d3fb06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_2.mat using Guid(93705c8208ed1304b89384dc85d3fb06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86b243c5c11af3628600f9d558fa3fd9') in 0.020850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat
+  artifactKey: Guid(b95f4dcd983ef5245bdfa819b129b035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_6.mat using Guid(b95f4dcd983ef5245bdfa819b129b035) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c87c59767c12cd9bb3a79f59a654304') in 0.016363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png
+  artifactKey: Guid(ebed7cfe1b117dd4eb51a200dc46a242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1610.png using Guid(ebed7cfe1b117dd4eb51a200dc46a242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22b1605c83fd1fdb1d632875d2be0dd3') in 0.028500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat
+  artifactKey: Guid(2c385dae55bc3e04fa96cc84d18f594a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_4.mat using Guid(2c385dae55bc3e04fa96cc84d18f594a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afb88866a6aaa31b3efccfb60aea9624') in 0.021304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_1.mat
+  artifactKey: Guid(880bf59141236224d8a8d9d3fd430708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_1.mat using Guid(880bf59141236224d8a8d9d3fd430708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04e7b676abf1c9dcc41c3f3ecf6b799a') in 0.017227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_8.mat
+  artifactKey: Guid(1651607fe0826f04d8197757c6dbe25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_8.mat using Guid(1651607fe0826f04d8197757c6dbe25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc59d565fda21ccd82121b13fabcebf0') in 0.025136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat
+  artifactKey: Guid(12ad1df57a06abc4ab37ed5d6d2d5386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_9.mat using Guid(12ad1df57a06abc4ab37ed5d6d2d5386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '40f4add2a15080de8cfb68c6ced4d7c7') in 0.016960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat
+  artifactKey: Guid(7f25f0b4ac3c7464eb7cfe7656a9dcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_9.mat using Guid(7f25f0b4ac3c7464eb7cfe7656a9dcbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8829f559091f4e8f403ccc13257f713') in 0.023451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_1.mat
+  artifactKey: Guid(1f9f8c9de9509294ca6949b681b7491e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_1.mat using Guid(1f9f8c9de9509294ca6949b681b7491e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd64eb1271c088d848afaf6fcee14c13b') in 0.021471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat
+  artifactKey: Guid(ade049448e544d94498ad03a121ea152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_5.mat using Guid(ade049448e544d94498ad03a121ea152) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16896b378eb239cc0f41ca6f059ea092') in 0.017241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png
+  artifactKey: Guid(29cbda7381075c549868de6af1e9323c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1666.png using Guid(29cbda7381075c549868de6af1e9323c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac458cd690f847bd75297ae06b80ec6f') in 0.022676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_3.mat
+  artifactKey: Guid(7b7af635219179747b423efeb0532081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_3.mat using Guid(7b7af635219179747b423efeb0532081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '976ce35047645476e93dc428a9541e8d') in 0.016721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_1.mat
+  artifactKey: Guid(4464563e826a4d04a890ea6835019aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_1.mat using Guid(4464563e826a4d04a890ea6835019aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6bd9bc779ad069794348baf22aecacd') in 0.018259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png
+  artifactKey: Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1713.png using Guid(a4de3db108aa1e2418610b0340caeb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '026f07a555d1a38e3f6780d59f6748cd') in 0.029574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat
+  artifactKey: Guid(31f8586c3bdf8b64dae44a2c2eb66abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_8.mat using Guid(31f8586c3bdf8b64dae44a2c2eb66abd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3812ae841f0f329c54821316648a7d0') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png
+  artifactKey: Guid(19dcc76473a82dc45ae29de3cedcf2ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1788.png using Guid(19dcc76473a82dc45ae29de3cedcf2ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afa4dedade0705dfb8c3244c8f8d6707') in 0.027690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png
+  artifactKey: Guid(ce329c768c617ab47b8763589ceb2015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1717.png using Guid(ce329c768c617ab47b8763589ceb2015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76a429acf3ee6ac1f669a12e2f7eb4af') in 0.026214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_6.mat
+  artifactKey: Guid(04788ac9bcd13ba4a82acf3bec4a5b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Grey/Grey_6.mat using Guid(04788ac9bcd13ba4a82acf3bec4a5b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9978ea37b2dfbdbc2e93a66e70444c7') in 0.023239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Red/Red_2.mat
+  artifactKey: Guid(ff7a71a59316b22469a304c94f2b4b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Red/Red_2.mat using Guid(ff7a71a59316b22469a304c94f2b4b00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '605eb35472ddadf35afd548a4bda6c2a') in 0.022945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat
+  artifactKey: Guid(85dba0447f817e84cab660c26893d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Pink/Pink_6.mat using Guid(85dba0447f817e84cab660c26893d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b42cd968143c808bacd795e4e46937a') in 0.016337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png
+  artifactKey: Guid(a51e1b0427ddc724694526fcec82c27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2668.png using Guid(a51e1b0427ddc724694526fcec82c27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7b9b89188f402089d05a0b8565492b6') in 0.024512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat
+  artifactKey: Guid(2fdad9288ca1171428734bc494b21419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Yellow/Yellow_3.mat using Guid(2fdad9288ca1171428734bc494b21419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8eb8f40136f33f7a4c0faa52f57f6cbf') in 0.016935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat
+  artifactKey: Guid(b5c538bb0be68cd4188d521dc6e1b43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Orange/Orange_7.mat using Guid(b5c538bb0be68cd4188d521dc6e1b43c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be10791f5d1262a8749a8c68ef00b814') in 0.020435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png
+  artifactKey: Guid(421f67a717d84664dad089ba86654682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Yellow/g2833.png using Guid(421f67a717d84664dad089ba86654682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7539fc091ad6ae2e1f8355126f2249de') in 0.539350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png
+  artifactKey: Guid(e7566ea17062cc147bcf41716800c8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Orange/g1793.png using Guid(e7566ea17062cc147bcf41716800c8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcd4bf50bf3197c8e96213919b36dd6b') in 0.023609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png
+  artifactKey: Guid(313e7a023352d1d40a64fa5709035310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Red/g3215.png using Guid(313e7a023352d1d40a64fa5709035310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '07e1fc4ae47140117d4caf80f43186df') in 0.022638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png
+  artifactKey: Guid(9976976cf79bd0b4490cb214d402338f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1972.png using Guid(9976976cf79bd0b4490cb214d402338f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a07b7b7b7fbc8a3e1e425251e9ebf46f') in 0.022944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png
+  artifactKey: Guid(bbcbd9b2876958a4090057d698f124fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g1572.png using Guid(bbcbd9b2876958a4090057d698f124fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8984515c61ca114b119859c42f80fac') in 0.023065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_8.mat
+  artifactKey: Guid(f18b5c90d872a3a48a459e4b20f7de29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Materials/Blue/Blue_8.mat using Guid(f18b5c90d872a3a48a459e4b20f7de29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc119e271110ec2d757306b28c9d46ea') in 0.016539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png
+  artifactKey: Guid(f7d38564f2930fc4495fcf9ba9976cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/iPoly3D/Prototype Textures/Textures/Grey/g987.png using Guid(f7d38564f2930fc4495fcf9ba9976cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '221f29aa8414cebea42e194f3d6526ce') in 0.023537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.181450 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef
+  artifactKey: Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef using Guid(8f07e33567e0ee542b40769c456c6b53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '272a05b477a17f2de50d6dcdead46d15') in 0.018814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ObjectSpawner.cs
+  artifactKey: Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ObjectSpawner.cs using Guid(956dd6cf70eaca449a45b6a95b96c8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '951c3a3862953e54e588b4460fa2dde1') in 0.018445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+  artifactKey: Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '044e2121a38711447744aa271eabcd13') in 0.036958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+  artifactKey: Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab using Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37a035abdc51173e75db6e3aaf6a071e') in 0.075378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
+  artifactKey: Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab using Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '911635ee674905c93bfc1d9a7a74e446') in 0.023186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerRight.fbx
+  artifactKey: Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerRight.fbx using Guid(11cd62256b1d470f922b2c8e6446cc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fcfc1259cb1e6014b75ffdcce32e87ae') in 0.045939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd3f9c1a35d2930e3b850f6685d6c329') in 0.025074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab
+  artifactKey: Guid(657321a07c3561043af55547ec4b0ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab using Guid(657321a07c3561043af55547ec4b0ed7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19ae6e9c032792b03ff69f9c7e1862ac') in 0.033179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right Controller.preset
+  artifactKey: Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Right Controller.preset using Guid(1421ad86ff3787b4dae70fe9e699a25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5161e8e5b6ef290dd3910e6b16124081') in 0.107815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Left Grab Move.preset
+  artifactKey: Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Left Grab Move.preset using Guid(e2e08fffc3edfbb47a429bae0c5a6343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1222340a9831c8bbee9216c7ffcc8885') in 0.028967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Ladder.prefab
+  artifactKey: Guid(b3830b3b2f190ee46a9c88433e985221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Climb/Ladder.prefab using Guid(b3830b3b2f190ee46a9c88433e985221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd87d15da91b8dafb047ebd86fec34dc2') in 0.030924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Gaze Controller.preset
+  artifactKey: Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Gaze Controller.preset using Guid(2e6e6d902741c934ba75a28389d4f66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cf3ce3aa0e37ffc30d327624146c9af') in 0.022833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
+  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2877912fa985fbebd2547b312cf66031') in 0.028856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/Primitive_Wedge.fbx
+  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47950bdacf5076a98ce387abdc5294e8') in 0.023804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Models/PushButton.fbx
+  artifactKey: Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Models/PushButton.fbx using Guid(7ab6f3b0fd1a6ba41b2a47766c16613f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '375a1c2c13259916f63b517ae4d060ff') in 0.036609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/XRI Default Input Actions.inputactions
+  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb6267a018b39558009a08edbfb48402') in 0.243913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Turn.preset
+  artifactKey: Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Continuous Turn.preset using Guid(0caad3af14f9a414dbdf25ed41e5aa47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abec5e0667c5f1de609b322f07d5e14c') in 0.025717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b93193d77b7049740cd410c7fa603199') in 0.154695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Interaction Setup.prefab
+  artifactKey: Guid(895f6f3c2d334633b5800312285058d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Prefabs/XR Interaction Setup.prefab using Guid(895f6f3c2d334633b5800312285058d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a63da980b392f5e39dd8db367c31999') in 0.041128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 334
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interaction Affordance.prefab
+  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interaction Affordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4ebf4c026f40a765d06d1ca20ca2f9c') in 0.018454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab
+  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '753b20ed1c9b1f524ea8571e7e401409') in 0.033708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs
+  artifactKey: Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/XRPokeFollowAffordance.cs using Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd434d8afc3b0e6f6f5a4769ced31f858') in 0.015312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
+  artifactKey: Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(5833e680dc0f7ae47aec6b4286570484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '222c181a38cd8a70a6170fa2e1a98538') in 0.023560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Left Controller.preset
+  artifactKey: Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default Left Controller.preset using Guid(ffd8268f7307a0c48a067dad4a8fe060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cdef00b29b8eb6f74714049a001507c') in 0.022330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/DestroySelf.cs
+  artifactKey: Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/DestroySelf.cs using Guid(717c12e2a4cfe764ab2580b1135e10fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d11ab52d535b7ecc05885757e4a9c15') in 0.014787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default XR UI Input Module.preset
+  artifactKey: Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Presets/XRI Default XR UI Input Module.preset using Guid(2c3e7ff9ab352b74da862a5a8779b276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8aa3b564d39b1bb996bd1a2ead8a6943') in 0.027390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Pyramid.prefab
+  artifactKey: Guid(2ed984a58a974166bf92c82a74380454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Instant Pyramid.prefab using Guid(2ed984a58a974166bf92c82a74380454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b65734df41e921218badc3fca92178c') in 0.036068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/DynamicMoveProvider.cs
+  artifactKey: Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/DynamicMoveProvider.cs using Guid(9b1e8c997df241c1a67045eeac79b41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '209bd78729aae7b6e58588385ef349a8') in 0.014675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png
+  artifactKey: Guid(e45f8f823c093d941855bb23b53b9414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60_Horizontal.png using Guid(e45f8f823c093d941855bb23b53b9414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2db88c008e3f1d5ae5aa60a424343442') in 0.028531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.mat
+  artifactKey: Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Tunneling Vignette/TunnelingVignette.mat using Guid(0a35b7e20f75a8540a2c14b9555078cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1db073a599d51e20893c35f5758b9aca') in 0.017522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab
+  artifactKey: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccaeeb23307a849052e72c598f84f74e') in 0.026522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab
+  artifactKey: Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab using Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce9e910079ee06e11dc4bce3d204dc88') in 0.019589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav
+  artifactKey: Guid(16fba6d30ed741d4a9fdd6e79ee2f3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Audio/Button Pop.wav using Guid(16fba6d30ed741d4a9fdd6e79ee2f3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e759de3a1f32141250654906dc198b67') in 0.072560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7fca227777299b3709f1f803e319d47') in 0.029674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab
+  artifactKey: Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab using Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '155cef34695784965a936f2020eb552b') in 0.035927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ActionBasedControllerManager.cs
+  artifactKey: Guid(f9ac216f0eb04754b1d938aac6380b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Scripts/ActionBasedControllerManager.cs using Guid(f9ac216f0eb04754b1d938aac6380b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe997159a74f8bccd45ac399289405c8') in 0.011730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
+  artifactKey: Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs using Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85961342cdf95267b00a55f0b83432ed') in 0.015410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Asset.png
+  artifactKey: Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Sprites/Asset.png using Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1030b483132962d8b6931b6a0b219225') in 0.026945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/XR Interaction Toolkit/2.5.2/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eaec50c4069bb10f3d7a02961f3fa9b') in 0.016482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
