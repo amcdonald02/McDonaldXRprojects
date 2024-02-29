@@ -24,6 +24,8 @@ public class CoreFeatures : MonoBehaviour
     [field: SerializeField]
 
     public AudioClip AudioClipOnStart { get; set; }
+
+    [field: SerializeField]
     public AudioClip AudioClipOnEnd { get; set; }
 
     private AudioSource audioSource;
@@ -60,7 +62,7 @@ public class CoreFeatures : MonoBehaviour
         }
     }
 
-    protected void PlayOnSEnd()
+    protected void PlayOnEnd()
     {
         if (AudioSFXSourceCreate && AudioClipOnEnd != null)
         {
