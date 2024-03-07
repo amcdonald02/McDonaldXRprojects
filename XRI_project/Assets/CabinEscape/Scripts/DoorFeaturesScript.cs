@@ -59,7 +59,7 @@ public class DoorFeatures : CoreFeatures
         });
 
         //REMOVE THIS
-        OpenDoor();
+        //OpenDoor();
 
     }
 
