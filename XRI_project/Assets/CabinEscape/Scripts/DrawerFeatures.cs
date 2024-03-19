@@ -23,4 +23,51 @@ public class DrawerFeatures : CoreFeatures
 
     [SerializeField]
     private XRSimpleInteractable simpleInteractable;
-    S
+
+    void Start()
+    {
+        //drawers with simple interactables
+        simpleInteractable?.selectEntered.AddListener((s) =>
+        {
+
+            //if the drawer is not open
+            if (!open)
+            {
+                OpenDrawer();
+            }
+
+        });
+    }
+
+    private void OpenDrawer()
+    {
+        open = true;
+        PlayOnStart();
+        StartCoroutine(ProcessMotion());
+
+    }
+
+    private IEnumerator ProcessMotion()
+    {
+        while (open)
+        {
+            if(featureDirection == FeatureDirection.Forward && drawerSlide.localPosition.z >= maxDistance)
+            {
+                drawerSlide.Translate(Vector3.forward * Time.deltaTime * speed);
+            }
+
+            else if(featureDirection == FeatureDirection.Backward && drawerSlide.localPosition.z <= maxDistance)
+            {
+                drawerSlide.Translate(-Vector3.forward * Time.deltaTime * speed);
+            }
+
+            else
+            {
+                open = false; //Ends the looping
+            }
+
+            yield return null;
+
+        }
+    }
+}   
