@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Class 2-15-24.unity
+    path: Assets/CabinEscape.unity
     guid: 96018317b038de34eac2cc9c3d6d1bc7
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: db304760b2e9e9f409358052d4292394, type: 2}

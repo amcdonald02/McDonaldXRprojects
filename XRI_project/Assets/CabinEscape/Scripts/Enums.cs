@@ -14,6 +14,6 @@ public enum GameState
 {
     Playing,
     Paused,
-    PuzlleSolved
+    PuzzleSolved
 }
 
